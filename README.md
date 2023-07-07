@@ -1,11 +1,9 @@
 # babynames
 
-[![Travis-CI Build Status](https://travis-ci.org/hadley/babynames.svg?branch=master)](https://travis-ci.org/hadley/babynames)
-[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/babynames)](https://cran.r-project.org/package=babynames)
 
 This package contains three datasets provided by the USA social security administration:
 
-* `babynames`: For each year from 1880 to 2017, the number of children of 
+* `babynames`: For each year from 1880 to 2023, the number of children of 
   each sex given each name. All names with more than 5 uses are given.
   (Source: http://www.ssa.gov/oact/babynames/limits.html)
 
@@ -29,9 +27,5 @@ It also includes the following data set from the US Census:
 install.packages("babynames")
 
 # Install the development version from GitHub
-devtools::install_github("hadley/babynames")
+devtools::install_github("shinevue/babynames")
 ```
-
-## Code of Conduct
-
-Please note that the babynames project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.
